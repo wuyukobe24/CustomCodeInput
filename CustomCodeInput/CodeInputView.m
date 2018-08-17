@@ -99,7 +99,7 @@
         }
     }
 }
-//光标显示或者隐藏
+//设置光标显示隐藏
 - (void)changeViewLayerIndex:(NSInteger)index linesHidden:(BOOL)hidden {
     CAShapeLayer *line = self.lines[index];
     if (hidden) {
